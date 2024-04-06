@@ -7,14 +7,15 @@ DBHelper.py: Manages database connections and operations, including query execut
 main.py: A FastAPI application that serves endpoints for generating SQL queries from user questions and summarizing query results.
 ## Getting Started
 Prerequisites
-Python 3.8+
-An MS SQL Server database
-Access to Google's generative AI services
+
+1. Python 3.8+
+2. An SAP Database with MS SQL Server
+3. Access to Google's generative AI services
 # Installation
 Clone the repository:
 ```
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/Mehboob786/Query-From-SAP-NLP.git
+cd uery-From-SAP-NLP
 ```
 Install required Python packages:
 
